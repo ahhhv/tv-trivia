@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "¿Cuál es el nombre del café donde se reúnen los personajes de 'Friends'?",
+        "options": [
+            "Central Park",
+            "Central Perk",
+            "Coffee Bean",
+            "Java Jive"
+        ],
+        "correct": "Central Perk",
+        "category": "Comedias",
+        "difficulty": "Fácil",
+        "quote": null,
+        "imageURL": null
+    },
+    {
+        "id": 2,
+        "type": "quote",
+        "question": "¿Quién dijo la famosa frase 'I am the one who knocks' en 'Breaking Bad'?",
+        "options": [
+            "Jesse Pinkman",
+            "Walter White",
+            "Gus Fring",
+            "Saul Goodman"
+        ],
+        "correct": "Walter White",
+        "category": "Dramas",
+        "difficulty": "Media",
+        "quote": "I am the one who knocks",
+        "imageURL": null
+    },
+    {
+        "id": 3,
+        "type": "image",
+        "question": "¿A qué serie pertenece esta imagen?",
+        "options": [
+            "Game of Thrones",
+            "Vikings",
+            "The Witcher",
+            "Spartacus"
+        ],
+        "correct": "Game of Thrones",
+        "category": "Fantasía",
+        "difficulty": "Difícil",
+        "quote": null,
+        "imageURL": "https://example.com/game_of_thrones.jpg"
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "¿Cuál es el apellido de Sheldon en 'The Big Bang Theory'?",
+        "options": [
+            "Cooper",
+            "Hofstadter",
+            "Wolowitz",
+            "Kripke"
+        ],
+        "correct": "Cooper",
+        "category": "Comedias",
+        "difficulty": "Fácil",
+        "quote": null,
+        "imageURL": null
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "¿En qué ciudad transcurre 'How I Met Your Mother'?",
+        "options": [
+            "Los Ángeles",
+            "Chicago",
+            "Nueva York",
+            "Boston"
+        ],
+        "correct": "Nueva York",
+        "category": "Comedias",
+        "difficulty": "Fácil",
+        "quote": null,
+        "imageURL": null
+    },
+    {
+        "id": 6,
+        "type": "multiple_choice",
+        "question": "¿Cuál es el nombre completo de Walter White en 'Breaking Bad'?",
+        "options": [
+            "Walter Hartwell White",
+            "Walter Henry White",
+            "Walter Hugh White",
+            "Walter Howard White"
+        ],
+        "correct": "Walter Hartwell White",
+        "category": "Dramas",
+        "difficulty": "Media",
+        "quote": null,
+        "imageURL": null
+    },
+    {
+        "id": 7,
+        "type": "multiple_choice",
+        "question": "¿Cuál es la serie de ciencia ficción donde un grupo de niños enfrenta a una amenaza del 'Upside Down'?",
+        "options": [
+            "The X-Files",
+            "Stranger Things",
+            "Dark",
+            "Fringe"
+        ],
+        "correct": "Stranger Things",
+        "category": "Ciencia Ficción",
+        "difficulty": "Fácil",
+        "quote": null,
+        "imageURL": null
+    },
+    {
+        "id": 8,
+        "type": "multiple_choice",
+        "question": "¿Qué personaje es el creador del parque en 'Westworld'?",
+        "options": [
+            "Robert Ford",
+            "Bernard Lowe",
+            "Dolores Abernathy",
+            "William"
+        ],
+        "correct": "Robert Ford",
+        "category": "Ciencia Ficción",
+        "difficulty": "Difícil",
+        "quote": null,
+        "imageURL": null
+    }
+]
