@@ -15,7 +15,7 @@ enum TriviaQuestionType: String, Codable, Hashable {
 }
 
 // Modelo de Pregunta
-class TriviaQuestion: Codable, Identifiable, ObservableObject {
+struct TriviaQuestion: Codable, Identifiable {
     let id: Int
     let type: TriviaQuestionType
     let question: String
@@ -28,7 +28,7 @@ class TriviaQuestion: Codable, Identifiable, ObservableObject {
     let quote: String?
     let imageURL: String?
     
-    @Published var isAnswered = false
+    var isAnswered = false
     
     enum CodingKeys: CodingKey {
         case id
@@ -40,19 +40,6 @@ class TriviaQuestion: Codable, Identifiable, ObservableObject {
         case difficulty
         case quote
         case imageURL
-    }
-    
-    init(id: Int, type: TriviaQuestionType, question: String, options: [String], correct: String, category: String, difficulty: String, quote: String?, imageURL: String?, isAnswered: Bool = false) {
-        self.id = id
-        self.type = type
-        self.question = question
-        self.options = options
-        self.correct = correct
-        self.category = category
-        self.difficulty = difficulty
-        self.quote = quote
-        self.imageURL = imageURL
-        self.isAnswered = isAnswered
     }
 }
 

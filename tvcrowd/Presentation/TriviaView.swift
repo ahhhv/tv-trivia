@@ -48,7 +48,6 @@ struct TriviaView: View {
                                let index = viewModel.questions.firstIndex(where: { $0.id == questionID }) {
                                 viewModel.questions[index].isAnswered = true
                             }
-
                         }) {
                             Text(option)
                                 .padding()
