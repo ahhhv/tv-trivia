@@ -46,7 +46,7 @@ struct TriviaView: View {
                             isCorrect = option == self.question?.correct
                             if let questionID = self.question?.id,
                                let index = viewModel.questions.firstIndex(where: { $0.id == questionID }) {
-                                viewModel.questions[index].isAnswered = true
+                                viewModel.questions[index].isAnswered.toggle()
                             }
                         }) {
                             Text(option)
@@ -90,6 +90,7 @@ struct TriviaView: View {
             viewModel.filterQuestion(by: type ?? .multipleChoice)
             question = viewModel.selectQuestion()
         }
+        .navigationBarHidden(true)
         .padding()
     }
 }
